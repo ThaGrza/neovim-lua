@@ -7,6 +7,7 @@ lsp.ensure_installed({
 	'eslint',
 	'rust_analyzer',
 })
+lsp.nvim_workspace()
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
